@@ -1,0 +1,200 @@
+{
+    "IO2 LIST": {
+        "prefix": "io2-list",
+        "body": "<ion-list ${1:no-lines}>\r\n     <ion-item>\r\n          $2 \r\n     <\/ion-item>\r\n<\/ion-list>"
+    },
+    "IO2 LIST MULTI": {
+        "prefix": "io2-list-multi",
+        "body": "<ion-list>\r\n    <ion-item>\r\n        <ion-avatar item-left>\r\n            <img src=\"$1\">\r\n        <\/ion-avatar>\r\n        <h2>$2<\/h2>\r\n        <h3>$3<\/h3>\r\n        <p>$4<\/p>\r\n    <\/ion-item>\r\n<\/ion-list>"
+    },
+    "IO2 LIST HEADER": {
+        "prefix": "io2-list-header",
+        "body": "<ion-list-header>\r\n     $1\r\n<\/ion-list-header>"
+    },
+    "IO2 ITEM": {
+        "prefix": "io2-item",
+        "body": "<ion-item> \n      $1 \n</ion-item>"
+    },
+    "IO2 ITEM GROUP": {
+        "prefix": "io2-item-group",
+        "body": "<ion-item-group>\r\n    $1\r\n<\/ion-item-group>"
+    },
+    "IO2 ITEM DIVIDER": {
+        "prefix": "io2-item-divider",
+        "body": "<ion-item-divider light>\r\n    $1\r\n<\/ion-item-divider>"
+    },
+    "IO2 ICON": {
+        "prefix": "io2-icon",
+        "body": "<ion-icon name=\"${1:leaf}\" ${2:item-left | item-right} isActive=\"${3:true}\"></ion-icon>"
+    },
+    "IO2 AVATAR": {
+        "prefix": "io2-avatar",
+        "body": "<ion-avatar item-left item-right>\r\n      <img src=\"$1\">\r\n<\/ion-avatar>"
+    },
+    "IO2 CONTENT": {
+        "prefix": "io2-content",
+        "body": "<ion-content>\r\n    $1\r\n<\/ion-content>"
+    },
+    "IO2 THUMBNAIL": {
+        "prefix": "io2-thumbnail",
+        "body": "<ion-thumbnail item-left item-right>\r\n      <img src=\"$1\">\r\n<\/ion-thumbnail>"
+    },
+    "IO2 ITEM SLIDING": {
+        "prefix": "io2-item-sliding",
+        "body": "<ion-item-sliding>\r\n    <ion-item-options side=\"left | right\">\r\n        $1\r\n    <\/ion-item-options>\r\n<\/ion-item-sliding>"
+    },
+     "IO2 ITEM SLIDING TEMPLATE": {
+        "prefix": "io2-item-sliding-template",
+        "body": "<ion-list>\r\n    <ion-item-sliding>\r\n        <ion-item>\r\n            <ion-avatar item-left>\r\n                <img src=\"img\/slimer.png\">\r\n            <\/ion-avatar>\r\n            <h2>Slimer<\/h2>\r\n        <\/ion-item>\r\n        <ion-item-options side=\"left\">\r\n            <button primary>\r\n        <ion-icon name=\"text\"><\/ion-icon>\r\n        Text\r\n      <\/button>\r\n            <button secondary>\r\n        <ion-icon name=\"call\"><\/ion-icon>\r\n        Call\r\n      <\/button>\r\n        <\/ion-item-options>\r\n        <ion-item-options side=\"right\">\r\n            <button primary>\r\n        <ion-icon name=\"mail\"><\/ion-icon>\r\n        Email\r\n      <\/button>\r\n        <\/ion-item-options>\r\n    <\/ion-item-sliding>\r\n<\/ion-list>"
+    },
+    "IO2 BADGE": {
+        "prefix": "io2-badge",
+        "body": "<ion-badge ${1:default | secondary | primary | danger | light | dark | favorite} ${2:item-right | item-left}>$3</ion-badge>"
+    },
+    "IO2 BUTTON": {
+        "prefix": "io2-button",
+        "body": "<button ${1:default | secondary | primary | danger | light | dark | favorite | royal} ${2:outline} ${3:clear} ${4:small | large}>$5</button>"
+    },
+    "IO2 BUTTON BLOCK": {
+        "prefix": "io2-button-block",
+        "body": "<button block ${1: default | secondary | primary | danger | light | dark | favorite}>$2</button>"
+    },
+    "IO2 BUTTON FULL": {
+        "prefix": "io2-button-full",
+        "body": "<button full ${1: default | secondary | primary | danger | light | dark | favorite}>$2</button>"
+    },
+    "IO2 BUTTONS": {
+        "prefix": "io2-buttons",
+        "body": "<ion-buttons ${1:start | end}>\r\n     $2\r\n<\/ion-buttons>"
+    },
+    "IO2 BUTTONS ICON": {
+        "prefix": "io2-buttons-icon",
+        "body": "<ion-buttons ${1:start | end}>\r\n    <button ${2:royal}>\r\n      <ion-icon name=\"${3:search}\"><\/ion-icon>\r\n    <\/button>\r\n<\/ion-buttons>"
+    },
+    "IO2 FAB": {
+        "prefix": "io2-fab",
+        "body": "<button fab ${1: fab-top | fab-bottom | fab-center | fab-right | fab-left}>$1</button>"
+    },
+    "IO2 HEADER": {
+        "prefix": "io2-header",
+        "body": "<ion-header>\r\n    $1\r\n<\/ion-header>"
+    },
+    "IO2 NAVBAR": {
+        "prefix": "io2-navbar",
+        "body": "<ion-navbar>\r\n    $1    \r\n<\/ion-navbar>"
+    },
+    "IO2 CARD": {
+        "prefix": "io2-card",
+        "body": "<ion-card>\r\n  <ion-card-header>\r\n    $1\r\n  <\/ion-card-header>\r\n  <ion-card-content>\r\n    $2\r\n  <\/ion-card-content>\r\n<\/ion-card>"
+    },
+    "IO2 CARD IMAGE": {
+        "prefix": "io2-card-image",
+        "body": "<ion-card>\r\n    <img src=\"$1\" \/>\r\n    <ion-card-content>\r\n        <ion-card-title>\r\n            $2\r\n        <\/ion-card-title>\r\n        <p>\r\n            $3\r\n        <\/p>\r\n    <\/ion-card-content>\r\n<\/ion-card>"
+    },
+    "IO2 CARD BACKGROUND IMAGE TEMPLATE": {
+        "prefix": "io2-card-background-image",
+        "body": "<ion-content>\r\n    <ion-card style=\"position: relative; text-align: center;\">\r\n        <img src=\"$1\" \/>\r\n        <div style=\"position: absolute; top: 36%; font-size: 2.0em; width: 100%; font-weight: bold; color: #fff;\">$2<\/div>\r\n        <div class=\"font-size: 1.0em; position: absolute; top: 52%; width: 100%; color: #fff;\">$3<\/div>\r\n    <\/ion-card>\r\n<\/ion-content>"
+    },
+    "IO2 CARD SOCIAL TEMPLATE": {
+        "prefix": "io2-card-social-template",
+        "body": "<ion-card>\r\n\r\n    <ion-item>\r\n        <ion-avatar item-left>\r\n            <img src=\"img\/marty-avatar.png\">\r\n        <\/ion-avatar>\r\n        <h2>Marty McFly<\/h2>\r\n        <p>November 5, 1955<\/p>\r\n    <\/ion-item>\r\n\r\n    <img src=\"img\/advance-card-bttf.png\">\r\n\r\n    <ion-card-content>\r\n        <p>Wait a minute. Wait a minute, Doc. Uhhh... Are you telling me that you built a time machine... out of a DeLorean?!\r\n            Whoa. This is heavy.<\/p>\r\n    <\/ion-card-content>\r\n\r\n    <ion-row>\r\n        <ion-col>\r\n            <button primary clear small>\r\n        <ion-icon name=\"thumbs-up\"><\/ion-icon>\r\n        <div>12 Likes<\/div>\r\n      <\/button>\r\n        <\/ion-col>\r\n        <ion-col>\r\n            <button primary clear small>\r\n        <ion-icon name=\"text\"><\/ion-icon>\r\n        <div>4 Comments<\/div>\r\n      <\/button>\r\n        <\/ion-col>\r\n        <ion-col center text-center>\r\n            <ion-note>\r\n                11h ago\r\n            <\/ion-note>\r\n        <\/ion-col>\r\n    <\/ion-row>\r\n\r\n<\/ion-card>"
+    },
+    "IO2 CARD MAP TEMPLATE": {
+        "prefix": "io2-card-map-template",
+        "body": "<ion-card>\r\n\r\n    <img src=\"img\/advance-card-map-madison.png\">\r\n    <button fab fab-right fab-top>\r\n    <ion-icon name=\"pin\"><\/ion-icon>\r\n  <\/button>\r\n\r\n    <ion-item>\r\n        <ion-icon name=\"football\" item-left large><\/ion-icon>\r\n        <h2>Museum of Football<\/h2>\r\n        <p>11 N. Way St, Madison, WI 53703<\/p>\r\n    <\/ion-item>\r\n\r\n    <ion-item>\r\n        <ion-icon name=\"wine\" item-left large><\/ion-icon>\r\n        <h2>Institute of Fine Cocktails<\/h2>\r\n        <p>14 S. Hop Avenue, Madison, WI 53703<\/p>\r\n    <\/ion-item>\r\n\r\n    <ion-item>\r\n        <span item-left>18 min<\/span>\r\n        <span item-left>(2.6 mi)<\/span>\r\n        <button primary clear item-right>\r\n      <ion-icon name=\"navigate\"><\/ion-icon>\r\n      Start\r\n    <\/button>\r\n    <\/ion-item>\r\n\r\n<\/ion-card>"
+    },
+    "IO2 ROW": {
+        "prefix": "io2-row",
+        "body": "<ion-row>$1<\/ion-row>"
+    },
+    "IO2 COL": {
+        "prefix": "io2-col",
+        "body": "<ion-col ${1:width-10}>$2<\/ion-row>"
+    },
+    "IO2 NOTE": {
+        "prefix": "io2-note",
+        "body": "<ion-row>\r\n    <ion-col ${1:center} ${2:text-center}>\r\n        $3\r\n    <\/ion-col>\r\n<\/ion-row>"
+    },
+    "IO2 CHECKBOX": {
+        "prefix": "io2-checkbox",
+        "body": "<ion-item>\r\n    <ion-label>$1<\/ion-label>\r\n    <ion-checkbox ${2:dark} checked=\"${3:true}\" disabled=\"${4:true}\"><\/ion-checkbox>\r\n<\/ion-item>"
+    },
+    "IO2 LABEL": {
+        "prefix": "io2-label",
+        "body": "<ion-label ${1:floating | stacked | fixed}>$2</ion-label>"
+    },
+    "IO2 DATETIME": {
+        "prefix": "io2-datetime",
+        "body": "<ion-datetime displayFormat=\"${1: h:mm A}\" pickerFormat=\"${2: h mm A}\" [(ngModel)]=\"${3: event.timeStarts}\"></ion-datetime>"
+    },
+    "IO2 GRID": {
+        "prefix": "io2-grid",
+        "body": "<ion-grid>\r\n     $1\r\n<\/ion-grid>"
+    },
+    "IO2 GRID TEMPLATE": {
+        "prefix": "io2-grid-template",
+        "body": "<ion-grid>\r\n    <ion-row>\r\n        <ion-col ${1:width-10}>${2:This column will take 10% of space}<\/ion-col>\r\n    <\/ion-row>\r\n<\/ion-grid>"
+    },
+    "IO2 ICON PLATFORM": {
+        "prefix": "io2-icon-platform",
+        "body": "<ion-icon ios=\"${1:logo-apple}\" md=\"${2:logo-android}\"></ion-icon>"
+    },
+    "IO2 INPUT": {
+        "prefix": "io2-input",
+        "body": "<ion-input type=\"${1:text}\" value=\"\"></ion-input>"
+    },
+    "IO2 RADIO": {
+        "prefix": "io2-radio",
+        "body": "<ion-radio checked=\"{1:true}\" value=\"$2\" disabled=\"${3:true}\"></ion-radio>"
+    },
+    "IO2 RANAGE": {
+        "prefix": "io2-range",
+        "body": "<ion-range [(ngModel)]=\"${1:brightness}\">\r\n    <ion-icon range-left small name=\"${2:sunny}\"><\/ion-icon>\r\n    <ion-icon range-right name=\"${3:sunny}\"><\/ion-icon>\r\n<\/ion-range>"
+    },
+    "IO2 SEARCH": {
+        "prefix": "io2-searchbar",
+        "body": "<ion-searchbar (ionInput)=\"${1:getItems($event)}\"></ion-searchbar>"
+    },
+    "IO2 SEGMENT TEMPLATE": {
+        "prefix": "io2-segment-template",
+        "body": "<div padding>\r\n    <ion-segment [(ngModel)]=\"${1:pet}\">\r\n        <ion-segment-button value=\"${2:kittens}\">\r\n            $3\r\n        <\/ion-segment-button>\r\n    <\/ion-segment>\r\n<\/div>",
+        "": "<div padding>\r\n    <ion-segment [(ngModel)]=\"${1:pet}\">\r\n        <ion-segment-button value=\"${2:kittens}\">\r\n            $3\r\n        <\/ion-segment-button>\r\n    <\/ion-segment>\r\n<\/div>\r\n<div [ngSwitch]=\"${4:pet}\">\r\n    <ion-list *ngSwitchCase=\"'${5:kittens}'\">\r\n        <ion-item>\r\n            <ion-thumbnail item-left>\r\n                <img src=\"$6\">\r\n            <\/ion-thumbnail>\r\n            <h2>$7<\/h2>\r\n        <\/ion-item>\r\n        $8\r\n    <\/ion-list>\r\n<\/div>"
+    },
+    "IO2 SELECT": {
+        "prefix": "io2-select",
+        "body": "<ion-select [(ngModel)]=\"${1:gaming}\"  multiple=\"${2:true}\">\r\n    <ion-option value=\"${3:nes}\">$4<\/ion-option>\r\n<\/ion-select>"
+    },
+    "IO2 SLIDES": {
+        "prefix": "io2-slides",
+        "body": "<ion-slides pager>\r\n    <ion-slide style=\"$[1:background-color: green}\">\r\n        <h2>${2:Slide 1}<\/h2>\r\n    <\/ion-slide>\r\n<\/ion-slides>"
+    },
+    "IO2 TOGGLE": {
+        "prefix": "io2-toggle",
+        "body": "<ion-toggle ${2:disabled} checked=\"${3:false}\"><\/ion-toggle>"
+    },
+    "IO2 TOOLBAR": {
+        "prefix": "io2-toolbar",
+        "body": "<ion-toolbar ${1:primary}  position=\"${2:bottom}\">$3<\/ion-toolbar>"
+    },
+    "IO2 FOOTER": {
+        "prefix": "io2-footer",
+        "body": "<ion-footer>\r\n  <ion-title>$2<\/ion-title>\r\n<\/ion-footer>"
+    },
+    "IO2 LOGIN TEMPLATE": {
+        "prefix": "io2-login-template",
+        "body": "<ion-list>\r\n    <ion-item>\r\n        <ion-input type=\"text\" placeholder=\"${1:Username}\"><\/ion-input>\r\n    <\/ion-item>\r\n    <ion-item>\r\n        <ion-input type=\"password\" placeholder=\"${2:Password}\"><\/ion-input>\r\n    <\/ion-item>\r\n<\/ion-list>\r\n<div padding>\r\n    <button primary block>${3:Sign In}<\/button>\r\n<\/div>"
+    },
+    "IO2 LIST DIVIDER TEMPLATE": {
+        "prefix": "io2-list-divider-template",
+        "body": "<ion-content>\r\n    <ion-item-group>\r\n        <ion-item-divider light>${1:A}<\/ion-item-divider>\r\n        <ion-item>${2:Angola}<\/ion-item>\r\n    <\/ion-item-group>\r\n<\/ion-content>"
+    },
+    "IO2 SEARCHBAR TEMPLATE": {
+        "prefix": "io2-search-template",
+        "body": "<ion-searchbar (ionInput)=\"${1:getItems($event)}\"><\/ion-searchbar>\r\n<ion-list>\r\n    <ion-item *ngFor=\"${2:let item of items}\">\r\n        {{ ${3:item} }}\r\n    <\/ion-item>\r\n<\/ion-list>"
+    },
+    "IO2 GESTIRES TEMPLATE": {
+        "prefix": "io2-gestures-template",
+        "body": "<ion-card (tap)=\"tapEvent($event)\">\r\n    <ion-item>\r\n        Tapped: {{tap}} times\r\n    <\/ion-item>\r\n<\/ion-card>\r\n\r\n<ion-card (press)=\"pressEvent($event)\">\r\n    <ion-item>\r\n        Pressed: {{press}} times\r\n    <\/ion-item>\r\n<\/ion-card>\r\n\r\n<ion-card (pan)=\"panEvent($event)\">\r\n    <ion-item>\r\n        Panned: {{pan}} times\r\n    <\/ion-item>\r\n<\/ion-card>\r\n\r\n<ion-card (swipe)=\"swipeEvent($event)\">\r\n    <ion-item>\r\n        Swiped: {{swipe}} times\r\n    <\/ion-item>\r\n<\/ion-card>"
+    }
+
+}

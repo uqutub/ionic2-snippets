@@ -1,0 +1,24 @@
+{
+    "name": "ionic2-snippets",
+    "displayName": "ionic2-snippets",
+    "description": "ionic2 snippets, io2 snippets",
+    "version": "0.0.3",
+    "publisher": "uqutub",
+    "author": "Yousuf Qutubuddin",
+    "github": "https://github/uqutub",
+    "icon": "imgs/io2_128x128.png",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "html",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
