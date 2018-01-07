@@ -109,7 +109,7 @@
     },
     "IO2 COL": {
         "prefix": "io2-col",
-        "body": "<ion-col ${1:width-10}>$2<\/ion-row>"
+        "body": "<ion-col ${1:width-10}>$2<\/ion-col>"
     },
     "IO2 NOTE": {
         "prefix": "io2-note",
